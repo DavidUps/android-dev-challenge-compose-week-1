@@ -3,23 +3,25 @@ package com.davidups.puppy_adoption.core
 import android.os.Bundle
 import androidx.activity.compose.setContent
 import androidx.appcompat.app.AppCompatActivity
+import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.material.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.puppyadoption.core.theme.PuppyAdoptionTheme
 
 class MainActivity : AppCompatActivity() {
+    @ExperimentalFoundationApi
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
             PuppyAdoptionTheme {
-                // A surface container using the 'background' color from the theme
                 InitNavigation()
             }
         }
     }
 }
 
+@ExperimentalFoundationApi
 @Composable
 private fun InitNavigation() {
     Surface {
@@ -27,6 +29,7 @@ private fun InitNavigation() {
     }
 }
 
+@ExperimentalFoundationApi
 @Preview("App")
 @Composable
 private fun App() {

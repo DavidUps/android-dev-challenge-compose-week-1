@@ -1,9 +1,9 @@
-package com.example.puppyadoption.core
+package com.davidups.puppy_adoption.core
 
 class Constants {
 
     companion object {
-        const val POPPY_LIST = "poppy list"
-        const val POPPY_DETAIL = "poppy detail"
+        const val PUPPY_LIST = "poppy list"
+        const val PUPPY_DETAIL = "poppy detail"
     }
 }
