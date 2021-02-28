@@ -10,6 +10,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.example.puppyadoption.core.theme.PuppyAdoptionTheme
 
 class MainActivity : AppCompatActivity() {
+    @ExperimentalStdlibApi
     @ExperimentalFoundationApi
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -21,6 +22,7 @@ class MainActivity : AppCompatActivity() {
     }
 }
 
+@ExperimentalStdlibApi
 @ExperimentalFoundationApi
 @Composable
 private fun InitNavigation() {
@@ -29,6 +31,7 @@ private fun InitNavigation() {
     }
 }
 
+@ExperimentalStdlibApi
 @ExperimentalFoundationApi
 @Preview("App")
 @Composable

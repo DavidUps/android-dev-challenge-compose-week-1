@@ -19,7 +19,7 @@ data class Puppy(
             Puppy(
                 "Kay",
                 "https://random.dog/027eef85-ccc1-4a66-8967-5d74f34c8bb4.jpg",
-                gender = Gender.FEMALE,
+                gender = Gender.MALE,
                 age = 2,
             ),
             Puppy(
