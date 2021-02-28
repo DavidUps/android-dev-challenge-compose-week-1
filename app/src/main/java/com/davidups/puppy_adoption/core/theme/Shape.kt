@@ -1,4 +1,4 @@
-package com.example.puppyadoption.core.theme
+package com.davidups.puppy_adoption.core.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes
